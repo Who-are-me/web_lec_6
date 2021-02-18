@@ -1,0 +1,86 @@
+$backColor: #fc0;
+$borderColor: #ccc;
+
+.layer1 {
+	width: 500px;
+	height: 200px;
+	border: 1px solid $borderColor;
+	background: $backColor;
+	overflow: scroll;
+	padding: 7px;
+}
+
+.layer2 {
+	width: 50%;
+	background: #ff0;
+	padding: 5px;
+}
+
+.task2 {
+	border: 3px dashed blue;
+	width: 50px;
+	height: 50px;
+}
+
+.task3 {
+	border: 3px solid blue;
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+}
+
+.task4 {
+	border: 3px solid blue;
+	width: 50px;
+	height: 50px;
+	border-radius: 20px 20px 5px 5px;
+}
+
+.task5 {
+	border: 3px solid blue;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+
+.task61 {
+	border: 10px solid red;
+	width: 150px;
+	height: 150px;
+	border-radius: 300px;
+}
+
+.task62 {
+	border: 10px solid red;
+	width: 100px;
+	height: 100px;
+	border-radius: 200px;
+	margin: 15px;
+}
+
+.task63 {
+	border: 10px solid red;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	margin: 15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.menu {
+	text-decoration: none;
+	border: 1px solid blue;
+	width: 200px;
+	padding: 0;
+	margin-bottom: 5px;
+	display: block;
+	line-height: 30px;
+	text-indent: 0.6em;
+}
+
+li a:hover {
+	font-weight: bold;
+}
